@@ -49,6 +49,7 @@
             this.btn_Move1.TabIndex = 0;
             this.btn_Move1.Text = "button1";
             this.btn_Move1.UseVisualStyleBackColor = true;
+            this.btn_Move1.Click += new System.EventHandler(this.btn_Move1_Click);
             // 
             // label1
             // 
@@ -72,7 +73,7 @@
             this.groupBox1.Size = new System.Drawing.Size(360, 178);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Your Moves";
+            this.groupBox1.Text = "Your Moves:";
             // 
             // btn_Move4
             // 
@@ -82,6 +83,7 @@
             this.btn_Move4.TabIndex = 3;
             this.btn_Move4.Text = "button4";
             this.btn_Move4.UseVisualStyleBackColor = true;
+            this.btn_Move4.Click += new System.EventHandler(this.btn_Move4_Click);
             // 
             // btn_Move3
             // 
@@ -91,6 +93,7 @@
             this.btn_Move3.TabIndex = 2;
             this.btn_Move3.Text = "button3";
             this.btn_Move3.UseVisualStyleBackColor = true;
+            this.btn_Move3.Click += new System.EventHandler(this.btn_Move3_Click);
             // 
             // btn_Move2
             // 
@@ -100,6 +103,7 @@
             this.btn_Move2.TabIndex = 1;
             this.btn_Move2.Text = "button2";
             this.btn_Move2.UseVisualStyleBackColor = true;
+            this.btn_Move2.Click += new System.EventHandler(this.btn_Move2_Click);
             // 
             // pictureBox1
             // 
@@ -141,7 +145,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Pokémon Battle App";
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
